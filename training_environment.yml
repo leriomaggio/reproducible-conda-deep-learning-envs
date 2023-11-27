@@ -2,10 +2,13 @@ name: dlenv
 channels:
   - defaults
 dependencies:
+  - chardet=4.0
   - ipython=8.15
   - jupyter=1.0
   - matplotlib=3.7
   - pandas=2.1
+  - pypdf2=2.10
   - scikit-learn=1.2
   - pytorch=2.0[build=gpu_cuda118*]
   - torchvision=0.15[build=cuda118*]
+  - transformers=4.32
